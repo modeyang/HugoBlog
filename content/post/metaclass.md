@@ -1,5 +1,5 @@
 ---
-title: "Metaclass"
+title: "深刻理解Python中的元类(metaclass)"
 date: 2018-04-17T00:53:25+08:00
 metaAlignment: center
 coverMeta: out
@@ -10,8 +10,7 @@ tags:
 - metaclass
 comments: true
 ---
-# [(转)](http://blog.jobbole.com/21351/)深刻理解Python中的元类(metaclass)
-在大多数编程语言中，类就是一组用来描述如何生成一个对象的代码段。在Python中这一点仍然成立,但是，Python中的类还远不止如此。类同样也是一种对象。是的，没错，就是对象。只要你使用关键字class，Python解释器在执行的时候就会创建一个对象。
+[(转)](http://blog.jobbole.com/21351/)在大多数编程语言中，类就是一组用来描述如何生成一个对象的代码段。在Python中这一点仍然成立,但是，Python中的类还远不止如此。类同样也是一种对象。是的，没错，就是对象。只要你使用关键字class，Python解释器在执行的时候就会创建一个对象。
 
 <!--more-->
 ## 类也是对象
